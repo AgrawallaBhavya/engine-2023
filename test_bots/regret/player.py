@@ -77,7 +77,6 @@ class Player(Bot):
         Your action.
         '''
         legal_actions = round_state.legal_actions()  # the actions you are allowed to take
-        print(legal_actions)
         #street = round_state.street  # int representing pre-flop, flop, turn, or river respectively
         #my_cards = round_state.hands[active]  # your cards
         #board_cards = round_state.deck[:street]  # the board cards
